@@ -1,7 +1,7 @@
 // <copyright file="StopProcessSample01.cs" company="Microsoft Corporation">
 // Copyright (c) 2009 Microsoft Corporation. All rights reserved.
 // </copyright>
-// DISCLAIMER OF WARRANTY: The software is licensed �as-is.� You 
+// DISCLAIMER OF WARRANTY: The software is licensed "as-is". You 
 // bear the risk of using it. Microsoft gives no express warranties, 
 // guarantees or conditions. You may have additional consumer rights 
 // under your local laws which this agreement cannot change. To the extent 
