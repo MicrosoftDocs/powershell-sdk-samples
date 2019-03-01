@@ -1,7 +1,7 @@
 // <copyright file="StopProcessSample01.cs" company="Microsoft Corporation">
 // Copyright (c) 2009 Microsoft Corporation. All rights reserved.
 // </copyright>
-// DISCLAIMER OF WARRANTY: The software is licensed “as-is.” You 
+// DISCLAIMER OF WARRANTY: The software is licensed ï¿½as-is.ï¿½ You 
 // bear the risk of using it. Microsoft gives no express warranties, 
 // guarantees or conditions. You may have additional consumer rights 
 // under your local laws which this agreement cannot change. To the extent 
@@ -138,7 +138,7 @@ namespace Microsoft.Samples.PowerShell.Commands
                    }
 
                    // Make sure that the user really wants to stop a critical
-                   // process that culd possibly stop the computer.
+                   // process that could possibly stop the computer.
                    bool criticalProcess = 
                        criticalProcessNames.Contains(processName.ToLower(CultureInfo.CurrentCulture));
 
@@ -150,16 +150,16 @@ namespace Microsoft.Samples.PowerShell.Commands
                                     processName);
 
                        // It is possible that the ProcessRecord method is called 
-                       // multiple times when objects are recieved as inputs from 
+                       // multiple times when objects are received as inputs from 
                        // the pipeline. So to retain YesToAll and NoToAll input that 
-                       // the user may enter across mutilple calls to this function, 
+                       // the user may enter across multiple calls to this function, 
                        // they are stored as private members of the cmdlet.
                        if (!ShouldContinue(message, "Warning!",
                                                ref yesToAll, ref noToAll))
                        {
                            continue;
                        }
-                   } // if (cricicalProcess...
+                   } // if (criticalProcess...
 
                    // Stop the named process.
                    try 
